@@ -1,0 +1,125 @@
+    *{
+        margin: 0;
+    }
+    
+    @font-face {
+        font-family: avantgarde;
+        src: url(AVANTN.ttf);
+    }
+    .about{
+       font-size:50px;
+       margin: 20px;
+      
+    }
+    label{
+        font-family: avantgarde;
+        color: #e9204f;;
+        margin: 20px;
+        
+    }
+    .lo{
+        margin-top: 20px;
+        margin: 20px;
+    }
+    .ofic{
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+    .ofice1 img{
+        width: 90%;
+        
+    }
+    .ofice2 img{
+        width: 90%;
+        
+    }
+    .ofice3 img{
+        width: 90%;
+        
+    }
+    
+    .oficeimgg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+
+    }
+    .ofice1{
+        filter: grayscale(100%);
+    }
+    .ofice2{
+        filter: grayscale(100%);
+    }
+    .ofice3{
+        filter: grayscale(100%);
+    }
+    .tex1{
+        color: white;
+        position: absolute;
+        bottom: 30px;
+    }
+    .who{
+       font-size: x-large;
+        font-weight: 600;
+        margin: 20px;
+    }
+    .lore{
+        margin:20px
+    }
+    .our{
+        font-size: x-large;
+        font-weight: 600;
+        margin: 20px;
+    }
+    .lore1{
+        margin: 20px;
+    }
+    .how{
+        font-size: x-large;
+        font-weight: 600;
+        margin: 20px;
+    }
+    .lore2{
+        margin: 20px;
+    }
+    .dayday img{
+        width: 90%;
+    }
+    .what{
+        font-size: x-large;
+        font-weight: 600;
+        margin: 20px;
+    }
+    .we{
+        font-size: larger;
+        font-weight: 200;
+        margin: 20px;
+        color: #e9204f;
+    }
+    .lore4{
+        margin: 20px;
+    }
+    
+    
+    @media screen and (min-width:900px){
+        .isa{
+            display: flex;
+            justify-content: space-around;
+        }
+        .sekil211{
+            display: grid;
+            grid-template-columns:auto auto;
+        }
+        .oficeimgg{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+    }
+
+
+    
